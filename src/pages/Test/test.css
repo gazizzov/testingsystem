@@ -1,0 +1,44 @@
+.popup {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: #115d58;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    color: white;
+    font-size: xxx-large;
+}
+
+.form__label {
+    display: flex;
+    gap: 20px;
+}
+
+
+.form__input {
+    border-radius: 15px;
+    font-size: x-large;
+}
+
+.form__btn {
+    background-color: #193f3e;
+    padding: 15px 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.test__question {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    align-items: center;
+}

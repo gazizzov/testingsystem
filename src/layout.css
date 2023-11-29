@@ -1,0 +1,30 @@
+
+/*html {*/
+/*    background-image: url("./imgs/backgrounds/stars.jpg");*/
+/*    background-size:cover;*/
+/*    min-height: 100vh;*/
+/*}*/
+
+/*body {*/
+/*    background:rgba(0,0,0,0.7);*/
+/*    min-height: 100vh;*/
+/*}*/
+
+body {
+    min-height: 100vh;
+    background-color: #010828;
+}
+
+input, button {
+    border: none;
+}
+
+* {
+    font-family: "Comic Sans MS"
+}
+
+
+
+.footer {
+    margin-top: 200px;
+}

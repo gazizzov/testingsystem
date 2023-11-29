@@ -1,0 +1,121 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+input {
+    padding: 10px;
+    width: 300px;
+}
+
+input[type="checkbox"] {
+    width: 10px;
+}
+
+button {
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 12px 10px;
+    background-color: #183960;
+    color: white;
+}
+
+button:hover {
+    background-color: #255898;
+}
+
+button:active {
+    background-color: #2d3a50;
+}
+
+.make__button:hover {
+    padding: 13px 11px;
+}
+
+
+.form__btn {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #1b312f;
+    color: white;
+}
+
+.make__code {
+    border-radius: 10px;
+    background-color: #183960;
+    padding: 10px 15px;
+    color: white;
+    border: 1px solid white;
+}
+
+.header {
+    width: 100%;
+    height: 90px;
+
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.nav__list {
+    display: flex;
+    gap: 30px;
+    padding-right: 20px;
+    justify-content: center;
+}
+
+.nav__list-link {
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    transition: background-color .1s ease-in-out;
+}
+
+.nav__list-link:hover {
+    background-color: black;
+}
+
+
+.make__popupOne, .make__popupTwo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.X {
+    border: none;
+    font-size: xxx-large;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: red;
+}
+
+.make__popup-contentOne, .make__popup-contentTwo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    flex-direction: column;
+    background-color: #183960;
+    color: whitesmoke;
+    font-size: xx-large;
+    border-radius: 50px;
+    border: 2px solid wheat;
+    min-width: 600px;
+    min-height: 600px;
+    padding: 30px;
+    opacity: 98%;
+}

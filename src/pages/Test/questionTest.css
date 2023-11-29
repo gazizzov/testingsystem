@@ -1,0 +1,139 @@
+input[type='checkbox'] {
+    margin-bottom: 5px;
+}
+
+.test__answer {
+    color: white;
+    margin-bottom: 15px;
+    border-radius: 1px;
+    border-bottom: 1px solid white;
+    padding: 10px 25px;
+}
+
+.test__answer:hover, .test__answer:active {
+    transition: font-size;
+    font-size: large;
+}
+
+
+.test__answers {
+    display: flex;
+    flex-direction: column;
+    border-radius: 60px;
+    border: 1px solid white;
+    padding: 40px 150px;
+}
+
+
+
+.test__question-text {
+    color: white;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 25px;
+    font-size: xxx-large;
+}
+
+.test {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #26116e;
+}
+
+.test__group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.test__next {
+    margin: 50px 0;
+}
+
+.asnwer_true {
+    background-color: red;
+}
+
+.test__results-popup {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup__content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex-direction: column;
+    background-color: #183960;
+    color: whitesmoke;
+    font-size: xx-large;
+    border-radius: 50px;
+    border: 2px solid wheat;
+    width: 600px;
+    height: 600px;
+    opacity: 98%;
+}
+
+.X {
+    border: none;
+    font-size: xxx-large;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: red;
+}
+
+.isTrue {
+    font-size: xx-large;
+    color: yellow;
+    margin: 10px;
+}
+
+.res {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.allResults {
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+
+.allResultspopup {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.allResultspopup__content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    flex-direction: column;
+    background-color: #183960;
+    color: whitesmoke;
+    font-size: xx-large;
+    border-radius: 50px;
+    border: 2px solid wheat;
+    min-width: 600px;
+    min-height: 600px;
+    padding: 30px;
+    opacity: 98%;
+}
